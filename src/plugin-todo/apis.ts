@@ -279,6 +279,7 @@ export const routes: Route[] = [
           type: ChannelType.GROUP,
           name: name.trim(),
           source: 'the-system',
+          worldName: 'The System',
         });
 
         const newTask = await runtime.createTask({
@@ -617,6 +618,7 @@ export const routes: Route[] = [
           type: ChannelType.GROUP,
           name: name.trim(),
           source: 'the-system',
+          worldName: 'The System',
         });
 
         // Create the room using runtime

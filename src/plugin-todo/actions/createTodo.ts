@@ -247,6 +247,7 @@ export const createTodoAction: Action = {
         type: message.content.type as ChannelType,
         name: todo.name,
         source: 'the-system',
+        worldName: 'The System',
       });
 
       logger.debug(`[createTodoAction] Creating task with:`, {

@@ -239,4 +239,16 @@ Things to fix
 
 check composeState structure and document since its confusing
 composeState should probably include all non-dynamic providers, seems to not (at least in bootstrap)
+
+
+
+reply inclides recent messages twice
+
+
 ```
+
+1. fix UI
+2. add examples but make sure they dont include reply in their action list for examples
+3. add creative examples where the system suggests the tasks, not just extract
+4. instead of confirming new tasks, validate that tasks arent duplicates of existing and that the user intends to create a new task
+5.
